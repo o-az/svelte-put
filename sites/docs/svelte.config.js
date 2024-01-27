@@ -37,14 +37,14 @@ const config = {
       $shared: path.resolve(__dirname, 'src/lib/shared'),
     },
   },
-  vitePlugin: {
-    inspector: {
-      toggleKeyCombo: 'control-shift',
-      holdMode: true,
-      showToggleButton: 'always',
-      toggleButtonPos: 'bottom-left',
-    },
-  },
+  // vitePlugin: {
+  //   inspector: {
+  //     toggleKeyCombo: 'control-shift',
+  //     holdMode: true,
+  //     showToggleButton: 'always',
+  //     toggleButtonPos: 'bottom-left',
+  //   },
+  // },
 };
 
 export default config;

@@ -102,12 +102,12 @@ export function shortcut(node, param) {
   function handler(event) {
     const normalizedTriggers = Array.isArray(trigger) ? trigger : [trigger];
     /** @type {Record<import('./public').ShortcutModifier, boolean>} */
-    const modifiedMap = {
-      alt: event.altKey,
-      ctrl: event.ctrlKey,
-      shift: event.shiftKey,
-      meta: event.metaKey,
-    };
+    // const modifierChecks = [
+    //   /** @type {const} */({ key: 'alt', active: event.altKey }),
+    //   /** @type {const} */({ key: 'ctrl', active: event.ctrlKey }),
+    //   /** @type {const} */({ key: 'shift', active: event.shiftKey }),
+    //   /** @type {const} */({ key: 'meta', active: event.metaKey }),
+    // ];
     for (const trigger of normalizedTriggers) {
       const mergedTrigger = {
         modifier: [],
@@ -117,16 +117,61 @@ export function shortcut(node, param) {
       };
       const { modifier, key, callback, preventDefault, enabled: triggerEnabled } = mergedTrigger;
       if (triggerEnabled) {
-        if (modifier.length) {
-          const modifierDefs = (Array.isArray(modifier) ? modifier : [modifier]).map((def) =>
-            typeof def === 'string' ? [def] : def,
-          );
-          const modified = modifierDefs.some((def) =>
-            def.every((modifier) => modifiedMap[modifier]),
-          );
-          if (!modified) continue;
-        }
         if (event.key === key) {
+          if (modifier.length) {
+            const modifierORs = (Array.isArray(modifier) ? modifier : [modifier]).map((def) =>
+              typeof def === 'string' ? [def] : def,
+            );
+
+            // /** @type {Array<typeof modifierChecks[number]>} */
+            // const matched = [];
+            // /** @type {Array<typeof modifierChecks[number]>} */
+            // const notMatched = [];
+
+            let modified = true;
+            for (const modifierANDs of modifierORs) {
+              const modifiedMap = {
+                alt: event.altKey,
+                ctrl: event.ctrlKey,
+                shift: event.shiftKey,
+                meta: event.metaKey,
+              };
+
+              for (const modifier of modifierANDs) {
+                if (!(modifier in modifiedMap)) continue;
+
+                if (!modifiedMap[modifier]) {
+                  modified = false;
+                  break;
+                }
+
+                delete modifiedMap[modifier];
+              }
+              // for (const modifier of modifierChecks) {
+              //   if (modifierANDs.some(def => modifier.key === def)) {
+              //     matched.push(modifier);
+              //   } else {
+              //     notMatched.push(modifier);
+              //   }
+              // }
+
+              // make sure all other modifiers not in definition are not pressed
+              if (modified) {
+                modified = Object.values(modifiedMap).every(
+                  (isModifierActive) => !isModifierActive,
+                );
+              }
+            }
+
+            if (!modified) continue;
+
+            // if (matched.every(m => m.active))
+
+            // const modified = modifierDefs.some((def) =>
+            //   def.every((modifier) => modifiedMap[modifier]),
+            // );
+            // if (!modified) continue;
+          }
           if (preventDefault) event.preventDefault();
           /** @type {import('./public').ShortcutEventDetail} */
           const detail = {

@@ -1,4 +1,6 @@
 <script lang="ts">
+  import { shortcut } from '@svelte-put/shortcut';
+
   import Code from '$client/components/Code/Code.svelte';
   import Installation from '$client/components/Installation/Installation.svelte';
   import ResourceLink from '$client/components/ResourceLink/ResourceLink.svelte';
@@ -11,6 +13,36 @@
 </script>
 
 <Installation pkg={data.package.name} />
+
+<svelte:window
+  use:shortcut={{
+    trigger: [
+      {
+        key: 'Z',
+        modifier: [['ctrl', 'shift']],
+        enabled: true,
+        callback: () => {
+          // FIXME when hitting the modifier, ctrl+shift+z, it will trigger the ctrl+z callback as well
+          console.log('redo');
+        },
+      },
+    ],
+    type: 'keydown',
+  }}
+  use:shortcut={{
+    trigger: [
+      {
+        key: 'z',
+        modifier: ['ctrl'],
+        enabled: true,
+        callback: () => {
+          console.log('undo');
+        },
+      },
+    ],
+    type: 'keydown',
+  }}
+/>
 
 <section>
   <h2>Quick Start</h2>
