@@ -94,7 +94,7 @@
   <Code code={codes.limitationSnapScroll} title="Limitation with scroll-snap" expanded={false} />
   <p>
     Here is the <ResourceLink
-      href="https://github.com/vnphanquang/svelte-put/blob/main/packages/actions/dragscroll/src/dragscroll.action.ts"
+      href="https://github.com/vnphanquang/svelte-put/blob/main/packages/dragscroll/src/dragscroll.action.ts"
       >source code</ResourceLink
     >
     for <code>dragscroll</code>. Feel free to open a PR if you've found a workaround for this.

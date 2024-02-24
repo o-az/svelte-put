@@ -303,7 +303,7 @@
       <br />
       You can even go more granular and omit it; just make sure to
       <ResourceLink
-        href="https://github.com/vnphanquang/svelte-put/blob/main/packages/actions/noti/src/Notification.svelte"
+        href="https://github.com/vnphanquang/svelte-put/blob/main/packages/noti/src/Notification.svelte"
         >provide the necessary props</ResourceLink
       >.
     </p>

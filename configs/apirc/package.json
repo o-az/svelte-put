@@ -3,7 +3,11 @@
   "version": "0.0.0",
   "private": true,
   "main": "index.js",
-  "author": "Quang Phan",
+  "author": {
+    "email": "vnphanquang@gmail.com",
+    "name": "Quang Phan",
+    "url": "https://github.com/vnphanquang"
+  },
   "files": [
     "base.json"
   ],

@@ -10,9 +10,9 @@ export const packages = {
     replId: 'd54381946b1c4ebd8e612e4568fbbbd0',
     status: 'stable',
     ready: true,
-    githubUrl: 'https://github.com/vnphanquang/svelte-put/tree/main/packages/misc/avatar',
+    githubUrl: 'https://github.com/vnphanquang/svelte-put/tree/main/packages/avatar',
     changelogUrl:
-      'https://github.com/vnphanquang/svelte-put/blob/main/packages/misc/avatar/CHANGELOG.md',
+      'https://github.com/vnphanquang/svelte-put/blob/main/packages/avatar/CHANGELOG.md',
   },
   clickoutside: {
     id: 'clickoutside',
@@ -23,9 +23,9 @@ export const packages = {
     replId: '9e5f9ee41c2c45aa8523993e357f6e78',
     status: 'stable',
     ready: true,
-    githubUrl: 'https://github.com/vnphanquang/svelte-put/tree/main/packages/actions/clickoutside',
+    githubUrl: 'https://github.com/vnphanquang/svelte-put/tree/main/packages/clickoutside',
     changelogUrl:
-      'https://github.com/vnphanquang/svelte-put/blob/main/packages/actions/clickoutside/CHANGELOG.md',
+      'https://github.com/vnphanquang/svelte-put/blob/main/packages/clickoutside/CHANGELOG.md',
   },
   'cloudflare-turnstile': {
     id: 'cloudflare-turnstile',
@@ -37,9 +37,9 @@ export const packages = {
     status: 'dev',
     ready: false,
     githubUrl:
-      'https://github.com/vnphanquang/svelte-put/tree/main/packages/actions/cloudflare-turnstile',
+      'https://github.com/vnphanquang/svelte-put/tree/main/packages/cloudflare-turnstile',
     changelogUrl:
-      'https://github.com/vnphanquang/svelte-put/blob/main/packages/actions/cloudflare-turnstile/CHANGELOG.md',
+      'https://github.com/vnphanquang/svelte-put/blob/main/packages/cloudflare-turnstile/CHANGELOG.md',
   },
   copy: {
     id: 'copy',
@@ -50,9 +50,9 @@ export const packages = {
     replId: undefined,
     status: 'stable',
     ready: true,
-    githubUrl: 'https://github.com/vnphanquang/svelte-put/tree/main/packages/actions/copy',
+    githubUrl: 'https://github.com/vnphanquang/svelte-put/tree/main/packages/copy',
     changelogUrl:
-      'https://github.com/vnphanquang/svelte-put/blob/main/packages/actions/copy/CHANGELOG.md',
+      'https://github.com/vnphanquang/svelte-put/blob/main/packages/copy/CHANGELOG.md',
   },
   dragscroll: {
     id: 'dragscroll',
@@ -63,9 +63,9 @@ export const packages = {
     replId: undefined,
     status: 'stable',
     ready: true,
-    githubUrl: 'https://github.com/vnphanquang/svelte-put/tree/main/packages/actions/dragscroll',
+    githubUrl: 'https://github.com/vnphanquang/svelte-put/tree/main/packages/dragscroll',
     changelogUrl:
-      'https://github.com/vnphanquang/svelte-put/blob/main/packages/actions/dragscroll/CHANGELOG.md',
+      'https://github.com/vnphanquang/svelte-put/blob/main/packages/dragscroll/CHANGELOG.md',
   },
   'inline-svg': {
     id: 'inline-svg',
@@ -76,9 +76,9 @@ export const packages = {
     replId: undefined,
     status: 'stable',
     ready: true,
-    githubUrl: 'https://github.com/vnphanquang/svelte-put/tree/main/packages/actions/inline-svg',
+    githubUrl: 'https://github.com/vnphanquang/svelte-put/tree/main/packages/inline-svg',
     changelogUrl:
-      'https://github.com/vnphanquang/svelte-put/blob/main/packages/actions/inline-svg/CHANGELOG.md',
+      'https://github.com/vnphanquang/svelte-put/blob/main/packages/inline-svg/CHANGELOG.md',
   },
   intersect: {
     id: 'intersect',
@@ -89,9 +89,9 @@ export const packages = {
     replId: '835eacce6ac44aff95a7cb0bb5ca200d',
     status: 'stable',
     ready: true,
-    githubUrl: 'https://github.com/vnphanquang/svelte-put/tree/main/packages/actions/intersect',
+    githubUrl: 'https://github.com/vnphanquang/svelte-put/tree/main/packages/intersect',
     changelogUrl:
-      'https://github.com/vnphanquang/svelte-put/blob/main/packages/actions/intersect/CHANGELOG.md',
+      'https://github.com/vnphanquang/svelte-put/blob/main/packages/intersect/CHANGELOG.md',
   },
   lockscroll: {
     id: 'lockscroll',
@@ -102,9 +102,9 @@ export const packages = {
     replId: '8bfbdc1af58e43b2af4d625f63358a35',
     status: 'stable',
     ready: true,
-    githubUrl: 'https://github.com/vnphanquang/svelte-put/tree/main/packages/actions/lockscroll',
+    githubUrl: 'https://github.com/vnphanquang/svelte-put/tree/main/packages/lockscroll',
     changelogUrl:
-      'https://github.com/vnphanquang/svelte-put/blob/main/packages/actions/lockscroll/CHANGELOG.md',
+      'https://github.com/vnphanquang/svelte-put/blob/main/packages/lockscroll/CHANGELOG.md',
   },
   modal: {
     id: 'modal',
@@ -115,9 +115,9 @@ export const packages = {
     replId: '0a68001337544b8ab55995fb3d02d1f6',
     status: 'stable',
     ready: true,
-    githubUrl: 'https://github.com/vnphanquang/svelte-put/tree/main/packages/misc/modal',
+    githubUrl: 'https://github.com/vnphanquang/svelte-put/tree/main/packages/modal',
     changelogUrl:
-      'https://github.com/vnphanquang/svelte-put/blob/main/packages/misc/modal/CHANGELOG.md',
+      'https://github.com/vnphanquang/svelte-put/blob/main/packages/modal/CHANGELOG.md',
   },
   movable: {
     id: 'movable',
@@ -128,9 +128,9 @@ export const packages = {
     replId: '88a7c1fc2e134db7b58786d5f385fc5d',
     status: 'stable',
     ready: true,
-    githubUrl: 'https://github.com/vnphanquang/svelte-put/tree/main/packages/actions/movable',
+    githubUrl: 'https://github.com/vnphanquang/svelte-put/tree/main/packages/movable',
     changelogUrl:
-      'https://github.com/vnphanquang/svelte-put/blob/main/packages/actions/movable/CHANGELOG.md',
+      'https://github.com/vnphanquang/svelte-put/blob/main/packages/movable/CHANGELOG.md',
   },
   noti: {
     id: 'noti',
@@ -141,9 +141,9 @@ export const packages = {
     replId: '5beb4357e32e427394f5f6f5ced7b5f1',
     status: 'stable',
     ready: true,
-    githubUrl: 'https://github.com/vnphanquang/svelte-put/tree/main/packages/actions/noti',
+    githubUrl: 'https://github.com/vnphanquang/svelte-put/tree/main/packages/noti',
     changelogUrl:
-      'https://github.com/vnphanquang/svelte-put/blob/main/packages/actions/noti/CHANGELOG.md',
+      'https://github.com/vnphanquang/svelte-put/blob/main/packages/noti/CHANGELOG.md',
   },
   'preprocess-auto-slug': {
     id: 'preprocess-auto-slug',
@@ -155,9 +155,9 @@ export const packages = {
     status: 'stable',
     ready: true,
     githubUrl:
-      'https://github.com/vnphanquang/svelte-put/tree/main/packages/preprocessors/auto-slug',
+      'https://github.com/vnphanquang/svelte-put/tree/main/packages/auto-slug',
     changelogUrl:
-      'https://github.com/vnphanquang/svelte-put/blob/main/packages/preprocessors/preprocess-auto-slug/CHANGELOG.md',
+      'https://github.com/vnphanquang/svelte-put/blob/main/packages/preprocess-auto-slug/CHANGELOG.md',
   },
   'preprocess-inline-svg': {
     id: 'preprocess-inline-svg',
@@ -169,9 +169,9 @@ export const packages = {
     status: 'stable',
     ready: true,
     githubUrl:
-      'https://github.com/vnphanquang/svelte-put/tree/main/packages/preprocessors/inline-svg',
+      'https://github.com/vnphanquang/svelte-put/tree/main/packages/inline-svg',
     changelogUrl:
-      'https://github.com/vnphanquang/svelte-put/blob/main/packages/preprocessors/inline-svg/CHANGELOG.md',
+      'https://github.com/vnphanquang/svelte-put/blob/main/packages/inline-svg/CHANGELOG.md',
   },
   qr: {
     id: 'qr',
@@ -182,9 +182,9 @@ export const packages = {
     replId: '74c053b447e94244833f9c3d73210ae5',
     status: 'stable',
     ready: true,
-    githubUrl: 'https://github.com/vnphanquang/svelte-put/tree/main/packages/misc/qr',
+    githubUrl: 'https://github.com/vnphanquang/svelte-put/tree/main/packages/qr',
     changelogUrl:
-      'https://github.com/vnphanquang/svelte-put/blob/main/packages/misc/qr/CHANGELOG.md',
+      'https://github.com/vnphanquang/svelte-put/blob/main/packages/qr/CHANGELOG.md',
   },
   resize: {
     id: 'resize',
@@ -195,9 +195,9 @@ export const packages = {
     replId: undefined,
     status: 'stable',
     ready: true,
-    githubUrl: 'https://github.com/vnphanquang/svelte-put/tree/main/packages/actions/resize',
+    githubUrl: 'https://github.com/vnphanquang/svelte-put/tree/main/packages/resize',
     changelogUrl:
-      'https://github.com/vnphanquang/svelte-put/blob/main/packages/actions/resize/CHANGELOG.md',
+      'https://github.com/vnphanquang/svelte-put/blob/main/packages/resize/CHANGELOG.md',
   },
   select: {
     id: 'select',
@@ -208,9 +208,9 @@ export const packages = {
     replId: '4f0d701ab5ed411ebbc9a71b0955385d',
     status: 'dev',
     ready: false,
-    githubUrl: 'https://github.com/vnphanquang/svelte-put/tree/main/packages/components/select',
+    githubUrl: 'https://github.com/vnphanquang/svelte-put/tree/main/packages/select',
     changelogUrl:
-      'https://github.com/vnphanquang/svelte-put/blob/main/packages/components/select/CHANGELOG.md',
+      'https://github.com/vnphanquang/svelte-put/blob/main/packages/select/CHANGELOG.md',
   },
   shortcut: {
     id: 'shortcut',
@@ -221,9 +221,9 @@ export const packages = {
     replId: undefined,
     status: 'stable',
     ready: true,
-    githubUrl: 'https://github.com/vnphanquang/svelte-put/tree/main/packages/actions/shortcut',
+    githubUrl: 'https://github.com/vnphanquang/svelte-put/tree/main/packages/shortcut',
     changelogUrl:
-      'https://github.com/vnphanquang/svelte-put/blob/main/packages/actions/shortcut/CHANGELOG.md',
+      'https://github.com/vnphanquang/svelte-put/blob/main/packages/shortcut/CHANGELOG.md',
   },
   toc: {
     id: 'toc',
@@ -234,9 +234,9 @@ export const packages = {
     replId: 'd9c896ac62cd41d49f80ffa249d292e6',
     status: 'stable',
     ready: true,
-    githubUrl: 'https://github.com/vnphanquang/svelte-put/tree/main/packages/actions/toc',
+    githubUrl: 'https://github.com/vnphanquang/svelte-put/tree/main/packages/toc',
     changelogUrl:
-      'https://github.com/vnphanquang/svelte-put/blob/main/packages/actions/toc/CHANGELOG.md',
+      'https://github.com/vnphanquang/svelte-put/blob/main/packages/toc/CHANGELOG.md',
   },
   tooltip: {
     id: 'tooltip',
@@ -248,9 +248,9 @@ export const packages = {
     replId: 'ac411d28f87b4b6d9942e050fa29e0cd',
     status: 'stable',
     ready: true,
-    githubUrl: 'https://github.com/vnphanquang/svelte-put/tree/main/packages/actions/tooltip',
+    githubUrl: 'https://github.com/vnphanquang/svelte-put/tree/main/packages/tooltip',
     changelogUrl:
-      'https://github.com/vnphanquang/svelte-put/blob/main/packages/actions/tooltip/CHANGELOG.md',
+      'https://github.com/vnphanquang/svelte-put/blob/main/packages/tooltip/CHANGELOG.md',
   },
 } as const;
 

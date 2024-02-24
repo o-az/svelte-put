@@ -114,7 +114,7 @@
       Behind the scene, <code>copy</code> uses a <code>copyToClipboard</code> helper. (You can see
       its
       <ResourceLink
-        href="https://github.com/vnphanquang/svelte-put/blob/main/packages/actions/copy/src/copy.helpers.ts"
+        href="https://github.com/vnphanquang/svelte-put/blob/main/packages/copy/src/copy.helpers.ts"
       >
         source code here
       </ResourceLink>).

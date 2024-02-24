@@ -72,11 +72,11 @@
   <h2 id="quick-start">Quick Start</h2>
   <p class="c-callout-info">
     <code>preprocess-inline-svg</code> provides both a <ResourceLink
-      href="https://github.com/vnphanquang/svelte-put/blob/main/packages/preprocessors/inline-svg/src/vite/vite.ts"
+      href="https://github.com/vnphanquang/svelte-put/blob/main/packages/inline-svg/src/vite/vite.ts"
       >vite plugin</ResourceLink
     >
     and a <ResourceLink
-      href="https://github.com/vnphanquang/svelte-put/blob/main/packages/preprocessors/inline-svg/src/preprocessor/preprocessor.ts"
+      href="https://github.com/vnphanquang/svelte-put/blob/main/packages/inline-svg/src/preprocessor/preprocessor.ts"
       >svelte preprocessor</ResourceLink
     > with the same core functionality.
     <br />

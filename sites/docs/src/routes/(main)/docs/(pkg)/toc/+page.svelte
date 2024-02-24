@@ -141,7 +141,7 @@
     <p>
       <code>toc</code> is highly customizable. Please visit the extracted
       <ResourceLink
-        href="https://github.com/vnphanquang/svelte-put/blob/main/packages/actions/toc/api/docs/toc.tocparameters.md"
+        href="https://github.com/vnphanquang/svelte-put/blob/main/packages/toc/api/docs/toc.tocparameters.md"
       >
         TocParameters
       </ResourceLink> API page for details.
@@ -328,7 +328,7 @@
   <!-- <p>
     For customization details, see the
     <ResourceLink
-      href="https://github.com/vnphanquang/svelte-put/blob/main/packages/actions/toc/api/docs/toc.toclink.md"
+      href="https://github.com/vnphanquang/svelte-put/blob/main/packages/toc/api/docs/toc.toclink.md"
       >extracted API page</ResourceLink
     >.
   </p> -->
@@ -394,7 +394,7 @@
     <!-- <p>
       These attributes are also be referenced from the extracted
       <ResourceLink
-        href="https://github.com/vnphanquang/svelte-put/blob/main/packages/actions/toc/api/docs/toc.tocdataattributes.md"
+        href="https://github.com/vnphanquang/svelte-put/blob/main/packages/toc/api/docs/toc.tocdataattributes.md"
       >
         TocDataAttributes
       </ResourceLink> API page.

@@ -250,7 +250,7 @@
           The <code>Avatar</code> component provides minimal global styles with 0 css specificity.
           See
           <ResourceLink
-            href="https://github.com/vnphanquang/svelte-put/blob/9e958812ee37988c5f6f2e0ddab659aff7c0e5ec/packages/misc/avatar/src/lib/Avatar.svelte#L64-L66"
+            href="https://github.com/vnphanquang/svelte-put/blob/9e958812ee37988c5f6f2e0ddab659aff7c0e5ec/packages/avatar/src/lib/Avatar.svelte#L64-L66"
           >
             source code here
           </ResourceLink>

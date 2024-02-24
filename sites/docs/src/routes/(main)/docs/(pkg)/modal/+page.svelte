@@ -72,25 +72,25 @@
   };
   const resources = {
     Modal:
-      'https://github.com/vnphanquang/svelte-put/blob/main/packages/misc/modal/src/lib/Modal.svelte',
+      'https://github.com/vnphanquang/svelte-put/blob/main/packages/modal/src/lib/Modal.svelte',
     ModalPortal:
-      'https://github.com/vnphanquang/svelte-put/blob/main/packages/misc/modal/src/lib/ModalPortal.svelte',
+      'https://github.com/vnphanquang/svelte-put/blob/main/packages/modal/src/lib/ModalPortal.svelte',
     ModalComponentBase:
-      'https://github.com/vnphanquang/svelte-put/blob/main/packages/misc/modal/api/docs/modal.modalcomponentbase.md',
+      'https://github.com/vnphanquang/svelte-put/blob/main/packages/modal/api/docs/modal.modalcomponentbase.md',
     ModalComponentBaseResolved:
-      'https://github.com/vnphanquang/svelte-put/blob/main/packages/misc/modal/api/docs/modal.modalcomponentbaseresolved.md',
+      'https://github.com/vnphanquang/svelte-put/blob/main/packages/modal/api/docs/modal.modalcomponentbaseresolved.md',
     ModalComponentBaseSlots:
-      'https://github.com/vnphanquang/svelte-put/blob/main/packages/misc/modal/api/docs/modal.modalcomponentbaseslots.md',
+      'https://github.com/vnphanquang/svelte-put/blob/main/packages/modal/api/docs/modal.modalcomponentbaseslots.md',
     ModalComponentBaseProps:
-      'https://github.com/vnphanquang/svelte-put/blob/main/packages/misc/modal/api/docs/modal.modalcomponentbaseprops.md',
+      'https://github.com/vnphanquang/svelte-put/blob/main/packages/modal/api/docs/modal.modalcomponentbaseprops.md',
     ModalComponentBasePropsAccessibility:
-      'https://github.com/vnphanquang/svelte-put/blob/main/packages/misc/modal/api/docs/modal.modalcomponentbaseprops.accessibility.md',
+      'https://github.com/vnphanquang/svelte-put/blob/main/packages/modal/api/docs/modal.modalcomponentbaseprops.accessibility.md',
     ResolveTrigger:
-      'https://github.com/vnphanquang/svelte-put/blob/main/packages/misc/modal/api/docs/modal.resolvetrigger.md',
+      'https://github.com/vnphanquang/svelte-put/blob/main/packages/modal/api/docs/modal.resolvetrigger.md',
     ExtendedModalEvents:
-      'https://github.com/vnphanquang/svelte-put/blob/main/packages/misc/modal/api/docs/modal.extendedmodalevents.md',
+      'https://github.com/vnphanquang/svelte-put/blob/main/packages/modal/api/docs/modal.extendedmodalevents.md',
     ExtendedModalProps:
-      'https://github.com/vnphanquang/svelte-put/blob/main/packages/misc/modal/api/docs/modal.extendedmodalprops.md',
+      'https://github.com/vnphanquang/svelte-put/blob/main/packages/modal/api/docs/modal.extendedmodalprops.md',
   };
 
   function openInformationModal() {

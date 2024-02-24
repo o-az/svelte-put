@@ -87,7 +87,7 @@
     <!-- <p>
       Check out the
       <ResourceLink
-        href="https://github.com/vnphanquang/svelte-put/blob/main/packages/actions/movable/api/docs/movable.movablelimitdelta.md"
+        href="https://github.com/vnphanquang/svelte-put/blob/main/packages/movable/api/docs/movable.movablelimitdelta.md"
       >
         API reference
       </ResourceLink>
