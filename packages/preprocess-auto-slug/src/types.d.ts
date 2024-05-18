@@ -1,6 +1,5 @@
-import type { BaseNode } from 'estree';
 import type BananaSlug from 'github-slugger';
-import type { MarkupPreprocessor } from 'svelte/types/compiler/preprocess';
+import type { MarkupPreprocessor } from 'svelte/compiler';
 
 /** @package */
 type PartialAutoSlugOptions = Partial<Omit<AutoSlugOptions, 'anchor'>> & {
@@ -88,18 +87,5 @@ export interface AutoSlugOptions {
 	/** instructions to add the anchor tag */
 	anchor: AutoSlugAnchorOptions;
 	/** slug resolver */
-	slug: (SlugResolverInput) => string;
-}
-
-/**
- * @package
- */
-export interface Node extends BaseNode {
-	name: string;
-	start: number;
-	end: number;
-	attributes: Array<{ name: string; type: string }>;
-	children?: Array<Node>;
-	// eslint-disable-next-line @typescript-eslint/no-explicit-any
-	data?: any;
+	slug: (input: SlugResolverInput) => string;
 }
